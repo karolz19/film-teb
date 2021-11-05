@@ -1,0 +1,65 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #116d82;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    color: red;
+}
+.czionka {
+    font-family: "Arial";
+}
+.centr {
+   text-align: center; 
+}
+.img {
+    width: 400px; 
+    height: 266px;
+}
+.courier {
+    font-family: "Courier New";
+}
+.inter {
+    line-height: 30px;
+}
+h3 {
+    text-shadow: 3px 3px grey;
+}
+dl > dt {
+    color: white;
+}
+h1 {
+    font-size: 30px;
+}
+.link:link {
+    color: lime;
+}
+.link:visited {
+    color: yellow;
+}
+.link:hover {
+    font-size: 20px;
+}
+.link:active {
+    color: white;
+}
+.shrek {
+    text-transform: uppercase;
+}
+a[href*="youtube.com"] {
+    font-weight: bold;
+}
+.dot {
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    color: white;
+    
+}
+body {
+    background-color: lightgray;
+}
