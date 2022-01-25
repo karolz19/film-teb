@@ -100,24 +100,31 @@ p {
     text-indent: 20px;
     background-color: beige;
     font-family: "Courier New";
+    cursor: url("../img/cursor.png"), pointer;
     
 }
 .img3 {
     width: 100px;
     height: 144px;
 }
-
 ul.imgm {
     list-style-image: url("../img/film.png");
     list-style-position: inside;
     padding: 0px;
 }
-.img4 {
-    width: 200px;
-    height: 285px;
-    background-color: white;
-}
-.imgi {
+.rome {
     list-style-position: inside;
     padding: 0px;
+}
+ul.imgd {
+    list-style-image: url("../img/director.png");
+    list-style-position: inside;
+    padding: 0px;
+}
+a[href*="about.html"] {
+    cursor: crosshair;
+}
+
+td.even {
+    background-color: #88B5C0;
 }
